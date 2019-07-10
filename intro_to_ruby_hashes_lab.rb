@@ -31,7 +31,7 @@ end
 def read_from_hash(hash, key)
   hash[key]
   if hash[key]
-    return hash[key]
+    puts hash[key]
   else puts "Key not found"
   # return the correct value using the hash and key parameters
 end
